@@ -1,6 +1,14 @@
 :root {
+  --black-700: #000;
+  --bg-gradiant:#3B2A9F;
+  --secondary:#FA8305;
+  --primary: #3B2A9F;
+  --primary-100: #5141AA;
+  --brown:#1C140F;
+  --black: #070707;
 }
 
 * {
   box-sizing: border-box;
+  background: var(--primary);
 }
