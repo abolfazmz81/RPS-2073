@@ -12,3 +12,19 @@
   box-sizing: border-box;
   background: var(--primary);
 }
+
+.circle {
+  display: block;
+  width: 20px; /* Size of the circle */
+  height: 20px;
+  border: 5px solid var(--secondary);
+  background: var(--secondary); /* Default white circle */
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 5px; /* Spacing from the image */
+}
+
+input[type="radio"]:checked + span.circle {
+  background-color: #D9D9D9; /* Change to green when selected */
+}
+
