@@ -12,6 +12,20 @@
   box-sizing: border-box;
   background: var(--primary);
 }
+@font-face {
+  font-family: poppins;
+  src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: poppins-thin;
+  src: url(../assets/fonts/Poppins-Thin.ttf);
+}
+
+@font-face {
+  font-family: poppins-bold;
+  src: url(../assets/fonts/Poppins-Bold.ttf);
+}
+
 
 .circle {
   display: block;
