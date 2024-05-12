@@ -15,7 +15,7 @@ button.addEventListener("click", (event) => {
     const ComChoice = document.getElementById("ComChoice");
 
     if(Paper.checked || Rock.checked || Scissor.checked){
-        button.innerText = " PLAY AGAIN "
+        button.value = " PLAY AGAIN "
         switch(num){
             case 1:{
                 ComChoice.innerText = " Computer chose 'Rock'!"
