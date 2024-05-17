@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- insert bootstrap link -->
+    <link rel="stylesheet" href="./style/bootstrap/bootstrap.css">
+    <!-- title -->
+    <title>Rock Paper Scissor</title>
+  </head>
+  <body>
+    <div id="winner" class="d-flex justify-content-center mt-5 h2" style="font-family: poppins-bold; color: white; margin: 0;"> Rock Paper Scissors </div>
+    <div id="scoreBoard" class="d-flex justify-content-center pt-5 pb-5 h2" style="font-family: poppins-bold; color: white; margin: 0;"> Player 1--- 0 : 0 ---Player 2 </div>
+    <form class="d-flex justify-content-center flex-column">
+      <div class="d-flex justify-content-center">
+        <div class=" d-flex justify-content-center " style="border-radius:10px; border: 5px solid lightblue ; margin-right: 5px;">
+            <label class="d-flex flex-column gap-3 p-4">
+              <img alt="rock" src="./assets/images/Rock.png" width="150">
+              <span class="btn btn-light mt-4" style="background: var(--primary); color: white; margin: 0 auto; display: block;  font-family: poppins-bold; padding: 0 50px;">A</span>
+            </label>
+            <label class="d-flex flex-column gap-3  p-4">
+              <img alt="Scissor" src="./assets/images/Scissor.png" width="150">
+              <span class="btn btn-light mt-4" style="background: var(--primary); color: white; margin: 0 auto; display: block;  font-family: poppins-bold; padding: 0 50px;">S</span>
+            </label>
+            <label class="d-flex flex-column gap-3  p-4">
+              <img alt="paper" src="./assets/images/Paper.png" width="150">
+              <span class="btn btn-light  mt-4" style="background: var(--primary); color: white; margin: 0 auto; display: block;  font-family: poppins-bold; padding: 0 50px;">D</span>
+            </label>
+          </div>
+          <div class=" d-flex justify-content-center " style="border-radius:10px; border: 5px solid lightcoral ; margin-left: 5px;">
+            <label class="d-flex flex-column gap-3 p-4">
+              <img alt="rock" src="./assets/images/Rock.png" width="150">
+              <span class="btn btn-light mt-4" style="background: var(--primary); color: white; margin: 0 auto; display: block;  font-family: poppins-bold; padding: 0 50px; font-size: 20px;">←</span>
+            </label>
+            <label class="d-flex flex-column gap-3  p-4">
+              <img alt="Scissor" src="./assets/images/Scissor.png" width="150">
+              <span class="btn btn-light mt-4" style="background: var(--primary); color: white; margin: 0 auto; display: block;  font-family: poppins-bold; padding: 0 50px; font-size: 20px;">↑</span>
+            </label>
+            <label class="d-flex flex-column gap-3  p-4">
+              <img alt="paper" src="./assets/images/Paper.png" width="150">
+              <span class="btn btn-light  mt-4" style="background: var(--primary); color: white; margin: 0 auto; display: block; font-family: poppins-bold; padding: 0 50px;font-size: 20px;">→</span>
+            </label>
+          </div>
+      </div>
+      <!-- submit button-->
+      <input id="submit" type="submit" class="btn btn-light btn-lg mt-4" style="background: var(--primary); color: white; margin: 0 auto; display: block; padding: 0 50px; font-family: poppins-bold;" value="START">
+      <a id="singleplayer" href="./index.html" class="btn btn-light mt-4" style="background: var(--primary); color: white;display: inline; margin: 0 auto; display: block; font-family: poppins-bold; width: 200px;"> SINGLE PLAYER </a>
+    </form>
+    
+    <!-- scripts -->
+    <script src="./script/TwoPlayer.js"></script>
+  </body>
+</html>
