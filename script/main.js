@@ -43,13 +43,13 @@ button.addEventListener("click", (event) => {
             }
             case 2:{
                 winner.innerText = "Computer won!";
-                winner.style.color = "color: red";
+                winner.style.color = "red";
                 ComScore++;                
                 break;
             }
             case 3:{
                 winner.innerText = "Draw!";
-                winner.style.color = "color: white";               
+                winner.style.color = "white";               
                  break;
             }
         } 
